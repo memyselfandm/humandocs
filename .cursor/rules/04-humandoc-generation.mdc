@@ -1,0 +1,48 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# HumanDoc Generation Guide
+
+## Purpose
+- This rule provides guidance for AI assistants creating new HumanDoc templates and guides
+- Ensures consistency in structure and approach across different document types
+- Establishes the minimum requirements for creating useful documentation
+
+## Initial User Input Requirements
+- **Document category/domain**: The specific aspect of human life to document (e.g., fitness, nutrition, tech preferences)
+- **Core information priorities**: What essential information must be captured (3-5 key aspects)
+- **Optional information sections**: What additional context would be valuable but not essential
+- **Cross-document relationships**: How this document might relate to existing HumanDoc types
+
+## Template Structure Standards
+- Start with metadata comments including versioning
+- Begin with Core Metadata section (last updated, maintaining AI, linked profiles)
+- Number sections sequentially with clear, stable IDs
+- Clearly mark which sections are core vs. progressive
+- Include placeholders using consistent format: `[placeholder]`
+- End with a Dynamic History section for tracking changes and investigations
+
+## AI Guide Structure Standards
+- Begin with a Progressive Documentation Approach section
+- Include tiered interrogation framework
+- Specify update protocols including triggers and frequency
+- Detail cross-document integration opportunities
+- Provide version control guidance
+- Include integration points with external systems and data sources
+
+## Implementation Process
+1. Create directory structure: `hd_src/[category_name]/`
+2. Create template file: `[category_name].template.md`
+3. Create AI guide file: `[category_name].aiguide.md`
+4. Ensure cross-references to existing HumanDoc types are accurate
+5. Structure for progressive documentation (core → extension → tracking)
+
+## Example Creation Workflow
+- Analyze user request and identify document purpose
+- Determine core vs. progressive sections
+- Create template with appropriate placeholders
+- Develop AI guide with contextual questioning approach
+- Add appropriate integration points with other documents
+- Ensure update protocols match usage frequency of document type
