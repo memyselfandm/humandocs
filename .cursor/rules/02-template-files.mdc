@@ -1,0 +1,23 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Template Files Guide
+
+## Purpose
+- Template files (`*.template.md`) serve as the base structure for document types
+- These files contain placeholders to be filled with actual user data
+- Templates maintain consistent document structure across the system
+
+## Structure
+- Templates begin with metadata comments
+- Use clearly defined sections with numbered headings (e.g., `## 1. Dietary Foundations`)
+- Placeholders are enclosed in square brackets: `[placeholder value]`
+
+## Example Template File
+The [food_preferences.template.md](mdc:hd_src/food_preferences/food_preferences.template.md) demonstrates:
+- Section organization with stable IDs
+- Cross-document references with double brackets `[[Links]]`
+- Timestamp metadata for version tracking
+- Clearly defined placeholder format

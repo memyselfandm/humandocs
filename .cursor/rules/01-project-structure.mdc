@@ -1,0 +1,23 @@
+---
+description: use this rule when creating new documents or folders
+globs: 
+alwaysApply: false
+---
+# Project Structure Guide
+
+## Directory Organization
+- The main content is stored in the `hd_src/` directory
+- Each document type has its own subdirectory (e.g., [hd_src/food_preferences/](mdc:hd_src/food_preferences))
+
+## File Naming Conventions
+- Files are named using the pattern: `[category].[filetype].md`
+  - Example: [food_preferences.aiguide.md](mdc:hd_src/food_preferences/food_preferences.aiguide.md)
+  - Example: [food_preferences.template.md](mdc:hd_src/food_preferences/food_preferences.template.md)
+
+## File Types
+- `template.md`: The actual document template that will be filled with user data
+- `aiguide.md`: Instructions for AI on how to create, update and work with the template
+
+## Cross-Document References
+- Use double bracket links: `[[DocumentName]]` for references
+- Special comments for cross-document synchronization

@@ -1,0 +1,29 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# AI Guide Files
+
+## Purpose
+- AI Guide files (`*.aiguide.md`) provide instructions and frameworks for AI systems
+- They define the approach, structure, and methodology for working with corresponding templates
+- Guide how AIs should interact with users regarding specific document types
+
+## Structure
+- Organized in tiers or levels of interrogation/interaction
+- Include protocols for updates and maintenance
+- Specify cross-document integration methods
+- Define version control responsibilities
+
+## Example AI Guide File
+The [food_preferences.aiguide.md](mdc:hd_src/food_preferences/food_preferences.aiguide.md) demonstrates:
+- Tiered approach to information gathering
+- Update protocols for specific trigger events
+- Cross-document integration guidelines
+- Version control specifications
+
+## Implementation
+- AI systems should follow the frameworks defined in these guides
+- Guides establish consistent interaction patterns across different AI instances
+- Information gathered should map directly to placeholders in the corresponding template
