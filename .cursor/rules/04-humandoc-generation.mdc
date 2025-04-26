@@ -1,5 +1,5 @@
 ---
-description: 
+description: Use this rule to generate new humandoc templates and guides
 globs: 
 alwaysApply: false
 ---
