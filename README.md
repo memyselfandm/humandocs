@@ -21,8 +21,8 @@ This project consists of two main components:
 humandocs/
 ├── hd_src/                # Source files for Human Docs
 │   ├── food_preferences/  # Food-related templates and guides
-│   │   ├── template.md    # Template for food preferences
-│   │   └── guide.md       # Question guide for food preferences
+│   │   ├── food_preferences.template.md  # Template for food preferences
+│   │   └── food_preferences.aiguide.md   # Question guide for food preferences
 │   └── ... other categories
 ```
 
